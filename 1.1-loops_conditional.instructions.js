@@ -8,3 +8,46 @@
 */
 
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
+
+
+
+// ================= Step 1 ====================
+for (let i = 0; i <= 10; i++) {
+    callback(i);
+}
+
+
+// ================= Step 2 ====================
+let callback = (num) => { 
+    console.log(num);
+} 
+
+for (let i = 0; i <= 10; i++) {
+    callback(i);
+}
+
+// ================= Step 3 ====================
+let callback = (num) => { 
+    if (num % 2 === 0) {
+        console.log(`${num} is even`);
+        } else {
+        console.log(`${num} is odd`);
+    }
+} 
+
+for (let i = 0; i <= 10; i++) {
+    callback(i);
+}
+
+
+
+// Extra homework
+let nums = [0,1,2,3,4,5,6,7,8,9,10];
+
+nums.forEach(e => {
+    if (e % 2 == 0) {
+        console.log(`${e} is even`);
+    } else {
+        console.log(`${e} is odd`);
+    }
+})

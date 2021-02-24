@@ -7,3 +7,20 @@
 */
 
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
+
+let objFavMovie = {
+    nameOfMovie: 'The Shawshank Redemption', 
+    runTime: '2h 22min', 
+    characters: [
+        { name: 'Tim Robbins', age: 62, items: [{first: 'books'}, {second: 'rock hammer'}] },
+        { name: 'Morgan Freeman', age: 34, items: [{first: 'cigarettes'}, {second: 'hat'}] }
+    ], 
+    genre: 'Drama'
+}
+
+console.log(objFavMovie);
+console.log(objFavMovie.nameOfMovie);
+console.log(objFavMovie.runTime);
+console.log(objFavMovie.characters);
+console.log(objFavMovie.characters[0].name);
+console.log(objFavMovie.characters[0].items[1].second);
